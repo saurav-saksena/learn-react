@@ -20,6 +20,7 @@ import ExUseReducer3 from "./pages/ExUseReducer3";
 import MyTodos from "./pages/MyTodos";
 import TaskApp from "./newToDo/TaskApp";
 import Foodfilter from "./pages/Foodfilter";
+import FilterProducts from "./pages/FilterProducts";
 
 export default function App() {
   return (
@@ -45,6 +46,7 @@ export default function App() {
           <Route path="/mytodo" element={<MyTodos />} />
           <Route path="/task-app" element={<TaskApp />} />
           <Route path="/food-food" element={<Foodfilter />} />
+          <Route path="/product-filter" element={<FilterProducts />} />
         </Routes>
       </Router>
     </>

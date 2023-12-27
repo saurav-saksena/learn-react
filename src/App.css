@@ -210,8 +210,8 @@ body {
   background-color: white;
   height: 100%;
   width: 100%;
-  margin-top: 10px;
-  padding: 10px;
+  margin-top: 4px;
+  padding: 4px;
 }
 /* News page */
 .news--container {
@@ -306,4 +306,90 @@ body {
 }
 .food-category {
   font-weight: bold;
+}
+
+.filter-product-container p,
+img {
+  margin: 0;
+  padding: 0;
+}
+.filter-product-container {
+  margin-top: 20px;
+  padding: 0;
+  border: 3px solid blueviolet;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.filter-product-list {
+  width: 350px;
+  border: 2px solid burlywood;
+  border-radius: 4px;
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+}
+.filter-product-list p {
+  margin-left: 20px;
+  font-weight: bold;
+}
+.filter-product-img {
+  width: 100%;
+  height: 300px;
+}
+
+.filter-button {
+  margin: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.filter-buttons {
+  margin: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+.fitler-button-span1 {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-weight: bold;
+  margin: 10px;
+  margin-left: 6px;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+.fitler-button-span {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-weight: bold;
+  margin: 10px;
+  margin-left: 6px;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+/* .fitler-button-span:hover {
+  background-color: red;
+  color: white;
+} */
+.clear-filter {
+  font-size: 20px;
+  text-decoration: underline;
+  color: rgb(5, 50, 247);
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 1s all;
+}
+.cleared-filter {
+  display: none;
 }

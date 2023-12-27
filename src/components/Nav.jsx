@@ -22,6 +22,7 @@ export default function Nav() {
                 <Link to="/mytodo" className={location.pathname === "/mytodo" ? "make--active" : "not--active"}>MY-TODO</Link>
                 <Link to="/task-app" className={location.pathname === "/task-app" ? "make--active" : "not--active"}>NOTE-APP</Link>
                 <Link to="/food-food" className={location.pathname === "/food-food" ? "make--active" : "not--active"}>Food List</Link>
+                <Link to="/product-filter" className={location.pathname === "/product-filter" ? "make--active" : "not--active"}>product filter</Link>
 
             </div>
         </>
