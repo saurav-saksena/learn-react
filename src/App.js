@@ -22,6 +22,7 @@ import TaskApp from "./newToDo/TaskApp";
 import Foodfilter from "./pages/Foodfilter";
 import FilterProducts from "./pages/FilterProducts";
 import Filternext from "./pages/Filternext";
+import AutoCorrection from "./pages/AutoCorrection";
 
 export default function App() {
   return (
@@ -49,6 +50,7 @@ export default function App() {
           <Route path="/food-food" element={<Foodfilter />} />
           <Route path="/product-filter" element={<FilterProducts />} />
           <Route path="/filter-next" element={<Filternext />} />
+          <Route path="/autocorrection" element={<AutoCorrection />} />
         </Routes>
       </Router>
     </>

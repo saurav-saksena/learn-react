@@ -24,6 +24,7 @@ export default function Nav() {
                 <Link to="/food-food" className={location.pathname === "/food-food" ? "make--active" : "not--active"}>Food List</Link>
                 <Link to="/product-filter" className={location.pathname === "/product-filter" ? "make--active" : "not--active"}>product filter</Link>
                 <Link to="/filter-next" className={location.pathname === "/filter-next" ? "make--active" : "not--active"}>filter_next</Link>
+                <Link to="/autocorrection" className={location.pathname === "/autocorrection" ? "make--active" : "not--active"}>autocorrection</Link>
 
             </div>
         </>
