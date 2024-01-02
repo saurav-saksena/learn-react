@@ -21,6 +21,7 @@ import MyTodos from "./pages/MyTodos";
 import TaskApp from "./newToDo/TaskApp";
 import Foodfilter from "./pages/Foodfilter";
 import FilterProducts from "./pages/FilterProducts";
+import Filternext from "./pages/Filternext";
 
 export default function App() {
   return (
@@ -47,6 +48,7 @@ export default function App() {
           <Route path="/task-app" element={<TaskApp />} />
           <Route path="/food-food" element={<Foodfilter />} />
           <Route path="/product-filter" element={<FilterProducts />} />
+          <Route path="/filter-next" element={<Filternext />} />
         </Routes>
       </Router>
     </>

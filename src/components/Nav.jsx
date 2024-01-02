@@ -23,6 +23,7 @@ export default function Nav() {
                 <Link to="/task-app" className={location.pathname === "/task-app" ? "make--active" : "not--active"}>NOTE-APP</Link>
                 <Link to="/food-food" className={location.pathname === "/food-food" ? "make--active" : "not--active"}>Food List</Link>
                 <Link to="/product-filter" className={location.pathname === "/product-filter" ? "make--active" : "not--active"}>product filter</Link>
+                <Link to="/filter-next" className={location.pathname === "/filter-next" ? "make--active" : "not--active"}>filter_next</Link>
 
             </div>
         </>
